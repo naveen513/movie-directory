@@ -1,0 +1,21 @@
+.gallery {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+
+    .movie {
+      padding-left: 0;
+      padding-right: 0;
+
+      .img-thumbnail {
+        border: 0;
+      }
+
+      .location {
+        margin-top: -28px;
+        text-align: center;
+        color: mediumseagreen;
+      }
+    }
+  }
+}
