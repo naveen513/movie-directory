@@ -330,5 +330,31 @@ export const movies = [
     title: 'Wonder Woman (2017)',
     image: 'https://images.redbox.com/Images/EPC/boxartvertical/200299.jpg',
     location: 'Usha'
-  }
+  },
+  {
+    title: 'Rampage',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/202792.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Tomb Raider (2018)',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/202771.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Escape Plan 2 - Double Feature',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/204212.jpg',
+    location: 'Usha'
+  },
+  {
+    title: 'Death Wish (2018)',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/203250.jpg',
+    location: 'Usha'
+  },
+  {
+    title: 'Red Sparrow',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/203228.jpg',
+    location: 'Usha'
+  },
+
 ];
