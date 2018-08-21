@@ -9,6 +9,8 @@ import {MoviesService} from '../shared/services/movies.service';
 export class GalleryComponent implements OnInit {
 
   movies: any;
+  filteredMovies: any;
+  searchText = '';
 
   constructor(private movieService: MoviesService) {
   }
@@ -16,7 +18,20 @@ export class GalleryComponent implements OnInit {
   ngOnInit() {
     this.movieService.get().subscribe(data => {
       this.movies = data;
+      this.filteredMovies = this.movies;
     });
   }
 
+  filterMovies() {
+    if (this.searchText !== '') {
+      this.filteredMovies = [];
+      this.movies.forEach(movie => {
+        if (movie.title.toLowerCase().indexOf(this.searchText.toLowerCase()) !== -1) {
+          this.filteredMovies.push(movie);
+        }
+      });
+    } else {
+      this.filteredMovies = this.movies;
+    }
+  }
 }

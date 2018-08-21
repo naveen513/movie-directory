@@ -1,8 +1,13 @@
 <!-- Page Content -->
 <div class="container gallery">
-  <div class="row text-center text-lg-left margin-top-30">
+  <div class="row margin-top-30">
+      <div class="form-group col-xs-12 col-md-12">
+        <input type="search" class="form-control" [(ngModel)]="searchText" placeholder="Search" (keyup)="filterMovies()">
+      </div>
+  </div>
+  <div class="row text-center text-lg-left">
 
-    <div class="movie col-4 col-md-3 col-lg-2" *ngFor="let movie of movies">
+    <div class="movie col-4 col-md-3 col-lg-2" *ngFor="let movie of filteredMovies">
       <div href="#" class="d-block mb-4 h-100">
         <img class="img-fluid img-thumbnail" src="{{movie.image}}" alt="{{movie.title}}">
         <div class="location">{{movie.location}}</div>
