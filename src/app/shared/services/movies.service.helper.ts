@@ -356,5 +356,35 @@ export const movies = [
     image: 'https://images.redbox.com/Images/EPC/boxartvertical/203228.jpg',
     location: 'Usha'
   },
+  {
+    title: 'Ready Player One',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/202785.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Pacific Rim Uprising',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/203286.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Avengers Infinity Wars',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/203219.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Blockers',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/200800.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Annihilation',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/203212.jpg',
+    location: 'Blue'
+  },
+  {
+    title: 'Life (2017)',
+    image: 'https://images.redbox.com/Images/EPC/boxartvertical/200328.jpg',
+    location: 'Blue'
+  },
 
 ];
